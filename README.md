@@ -55,4 +55,6 @@ Sistema que salva informações em um JSON, permitindo consultar, alterar e cria
 Sistema desenvolvido para controlar as vagas livres no estacionamento com base nos veículos estacionados, evitando a aceitação de clientes quando não há vagas disponíveis.
 
 ## Melhoria futura
-1. Regex para validar as placas de veiculos exemplo ( ^[A-Z]{3}[0-9][A-Z][0-9]{2}$ ).
+Regex para validar as placas de veiculos exemplos:
+1. Modelo novo Mercosul: ( ^[A-Z]{3}[0-9][A-Z][0-9]{2}$ ).
+2. Modelo antigo: ( ^[A-Z]{3}-[0-9]{4}$ ).
