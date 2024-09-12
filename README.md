@@ -36,3 +36,23 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+
+## Implatações
+
+1. Sistema de Log
+2. Sistema de salvamento (Veiculos e Configurações)
+3. Controle de vagas
+
+## Sistema de logs
+Para garantir que o sistema não pare devido a um erro e para melhor controle das operações, implementei um sistema de logs. Todos os erros são passadoas para o arquivo log.txt. Além disso, incluí confirmações em todas nas etapas registro e remoção possibilitando o cancelamento e evitando possíveis erros do usuário.
+Exemplo: 12/09/2024 18:21:49 - Veículo com placa XXX-0000 adicionado ao estacionamento.
+
+## Sistema de salvamento
+Sistema que salva informações em um JSON, permitindo consultar, alterar e criar registros. Isso assegura que todos os veículos sejam mantidos como valores registrados.(arquivos gerados automatico)
+
+## Sistema de vagas
+Sistema desenvolvido para controlar as vagas livres no estacionamento com base nos veículos estacionados, evitando a aceitação de clientes quando não há vagas disponíveis.
+
+## Melhoria futura
+1. Regex para validar as placas de veiculos exemplo ( ^[A-Z]{3}[0-9][A-Z][0-9]{2}$ ).
