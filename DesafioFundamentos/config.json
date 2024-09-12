@@ -1,7 +1,7 @@
 {
-  "PrecoInicial": 100,
-  "PrecoPorHora": 1,
-  "Vagas": 100,
+  "PrecoInicial": 5,
+  "PrecoPorHora": 2,
+  "Vagas": 10,
   "Debug": false,
   "DebugTime": "2024-09-12T17:58:42.7451338-03:00"
 }
